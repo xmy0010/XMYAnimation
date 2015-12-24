@@ -1,0 +1,34 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8D88C5E51D5C9FD647C0B198307C7797B4A5A9D4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8D88C5E51D5C9FD647C0B198307C7797B4A5A9D4" : 0,
+    "79A0606DF4BE26D877A075433C9B912725AFF704" : 0
+  },
+<<<<<<< HEAD
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E20ECB39-92F2-4B53-9531-BEC28DECCC3B",
+=======
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C97DA47F-6969-40FA-8FBE-4967AD20577B",
+>>>>>>> feature-Opacity
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8D88C5E51D5C9FD647C0B198307C7797B4A5A9D4" : "XMYAnimation\/",
+    "79A0606DF4BE26D877A075433C9B912725AFF704" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "XMYAnimationSimple",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "XMYAnimationSimple.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/xmy0010\/learngit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "79A0606DF4BE26D877A075433C9B912725AFF704"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:xmy0010\/XMYAnimation.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8D88C5E51D5C9FD647C0B198307C7797B4A5A9D4"
+    }
+  ]
+}
