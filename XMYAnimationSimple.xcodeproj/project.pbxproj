@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A51720A1C2C402C00F8C818 /* OpacityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5172091C2C402C00F8C818 /* OpacityViewController.swift */; };
 		4ADE5D091C2ABD0A002B5D84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADE5D081C2ABD0A002B5D84 /* AppDelegate.swift */; };
 		4ADE5D0B1C2ABD0A002B5D84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADE5D0A1C2ABD0A002B5D84 /* ViewController.swift */; };
 		4ADE5D0E1C2ABD0A002B5D84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADE5D0C1C2ABD0A002B5D84 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A5172091C2C402C00F8C818 /* OpacityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpacityViewController.swift; sourceTree = "<group>"; };
 		4ADE5D051C2ABD0A002B5D84 /* XMYAnimationSimple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMYAnimationSimple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ADE5D081C2ABD0A002B5D84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4ADE5D0A1C2ABD0A002B5D84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				4ADE5D111C2ABD0A002B5D84 /* LaunchScreen.storyboard */,
 				4ADE5D141C2ABD0A002B5D84 /* Info.plist */,
 				4ADE5D361C2ABEAD002B5D84 /* PositionViewController.swift */,
+				4A5172091C2C402C00F8C818 /* OpacityViewController.swift */,
 			);
 			path = XMYAnimationSimple;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				4ADE5D371C2ABEAD002B5D84 /* PositionViewController.swift in Sources */,
 				4ADE5D0B1C2ABD0A002B5D84 /* ViewController.swift in Sources */,
+				4A51720A1C2C402C00F8C818 /* OpacityViewController.swift in Sources */,
 				4ADE5D091C2ABD0A002B5D84 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,6 +490,7 @@
 				4ADE5D2F1C2ABD0B002B5D84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4ADE5D301C2ABD0B002B5D84 /* Build configuration list for PBXNativeTarget "XMYAnimationSimpleTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +499,7 @@
 				4ADE5D321C2ABD0B002B5D84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4ADE5D331C2ABD0B002B5D84 /* Build configuration list for PBXNativeTarget "XMYAnimationSimpleUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +508,7 @@
 				4ADE5D351C2ABD0B002B5D84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
