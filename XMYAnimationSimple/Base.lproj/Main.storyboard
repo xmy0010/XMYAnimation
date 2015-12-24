@@ -87,6 +87,27 @@
             </objects>
             <point key="canvasLocation" x="962" y="361"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="VrZ-AS-BCC">
+            <objects>
+                <viewController id="2GS-DA-fAl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oG6-sg-Atd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="rfq-Ql-XPg">
+                                <rect key="frame" x="100" y="73" width="120" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.19889273299999999" green="1" blue="0.95977390060000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gaV-tM-cNe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1382" y="361"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="45a-Ic-HXw">
             <objects>
