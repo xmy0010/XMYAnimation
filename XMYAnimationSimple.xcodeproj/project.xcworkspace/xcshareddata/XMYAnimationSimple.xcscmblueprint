@@ -7,7 +7,11 @@
     "8D88C5E51D5C9FD647C0B198307C7797B4A5A9D4" : 0,
     "79A0606DF4BE26D877A075433C9B912725AFF704" : 0
   },
+<<<<<<< HEAD
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E20ECB39-92F2-4B53-9531-BEC28DECCC3B",
+=======
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C97DA47F-6969-40FA-8FBE-4967AD20577B",
+>>>>>>> feature-Opacity
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "8D88C5E51D5C9FD647C0B198307C7797B4A5A9D4" : "XMYAnimation\/",
     "79A0606DF4BE26D877A075433C9B912725AFF704" : ""

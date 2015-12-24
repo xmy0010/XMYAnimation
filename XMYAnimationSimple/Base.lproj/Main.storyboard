@@ -53,7 +53,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="rOD-Rc-1O0" kind="push" id="OzV-SD-U1G"/>
+                                            <segue destination="2GS-DA-fAl" kind="push" id="BHf-da-Dhm"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -108,15 +108,15 @@
             <point key="canvasLocation" x="962" y="361"/>
         </scene>
         <!--Opacity View Controller-->
-        <scene sceneID="jS7-Jn-ONm">
+        <scene sceneID="VrZ-AS-BCC">
             <objects>
-                <viewController id="rOD-Rc-1O0" customClass="OpacityViewController" customModule="XMYAnimationSimple" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ATU-BN-KEy">
+                <viewController id="2GS-DA-fAl" customClass="OpacityViewController" customModule="XMYAnimationSimple" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oG6-sg-Atd">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view userInteractionEnabled="NO" contentMode="scaleToFill" id="V1a-fT-M4P">
-                                <rect key="frame" x="100" y="119" width="120" height="120"/>
+                            <view contentMode="scaleToFill" id="rfq-Ql-XPg">
+                                <rect key="frame" x="100" y="73" width="120" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.19889273299999999" green="1" blue="0.95977390060000001" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
@@ -125,7 +125,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="Pdz-iO-Wji"/>
                     <connections>
-                        <outlet property="blueSquare" destination="V1a-fT-M4P" id="jWM-Zi-O1i"/>
+                        <outlet property="blueSquare" destination="rfq-Ql-XPg" id="cQ4-yS-DqS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kqK-PR-sXd" userLabel="First Responder" sceneMemberID="firstResponder"/>
