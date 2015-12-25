@@ -156,6 +156,26 @@
                                             <segue destination="NO1-Qy-XbF" kind="push" id="dXi-GM-dZp"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="DLo-kT-NKq" style="IBUITableViewCellStyleDefault" id="EDG-9z-915">
+                                        <rect key="frame" x="0.0" y="372" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EDG-9z-915" id="AQc-T6-YHp">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Spring" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DLo-kT-NKq">
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="LBE-nM-J2j" kind="push" id="z55-PL-9CJ"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -249,6 +269,43 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y58-ek-bG7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="934" y="1057"/>
+        </scene>
+        <!--Spring View Controller-->
+        <scene sceneID="Jmd-q2-y3p">
+            <objects>
+                <viewController id="LBE-nM-J2j" customClass="SpringViewController" customModule="XMYAnimationSimple" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QID-UO-wsF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="4qx-ec-tD5">
+                                <rect key="frame" x="20" y="99" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.19889273299999999" green="1" blue="0.95977390060000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="fYa-pV-lL9">
+                                <rect key="frame" x="20" y="207" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.30458876689999997" blue="0.33471550830000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="quZ-Mf-0Ru">
+                                <rect key="frame" x="20" y="318" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.07356693517" green="1" blue="0.44075271599999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="O1R-R0-pz8"/>
+                    <connections>
+                        <outlet property="blueSquare" destination="4qx-ec-tD5" id="WbL-Br-zEf"/>
+                        <outlet property="greenSquare" destination="quZ-Mf-0Ru" id="TlC-yl-rgr"/>
+                        <outlet property="redSquare" destination="fYa-pV-lL9" id="zLS-NM-ZeO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vRB-tg-LE8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1346" y="1057"/>
         </scene>
         <!--Position View Controller-->
         <scene sceneID="JhD-9Y-peU">
