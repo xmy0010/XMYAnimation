@@ -136,6 +136,26 @@
                                             <segue destination="V77-of-Fuy" kind="push" id="ars-7t-kqH"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Taa-Z7-VrY" style="IBUITableViewCellStyleDefault" id="l2B-Bv-RVW">
+                                        <rect key="frame" x="0.0" y="328" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="l2B-Bv-RVW" id="Pj0-1b-MxS">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Easing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Taa-Z7-VrY">
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="NO1-Qy-XbF" kind="push" id="dXi-GM-dZp"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -186,6 +206,49 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wh0-La-DSi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="579" y="1057"/>
+        </scene>
+        <!--Easing View Controller-->
+        <scene sceneID="6X1-WK-6ux">
+            <objects>
+                <viewController id="NO1-Qy-XbF" customClass="EasingViewController" customModule="XMYAnimationSimple" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dWf-a4-x1c">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="JrQ-of-VEg">
+                                <rect key="frame" x="20" y="91" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.19889273299999999" green="1" blue="0.95977390060000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="x4d-gd-okY">
+                                <rect key="frame" x="20" y="203" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.30458876687254866" blue="0.3347155082896266" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="Bm9-D3-pGn">
+                                <rect key="frame" x="20" y="314" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.073566935173913328" green="1" blue="0.44075271596005583" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="X2F-ZA-ZD2">
+                                <rect key="frame" x="20" y="425" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.96074038713905574" blue="0.27009610312568699" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="4FF-8H-pQh"/>
+                    <connections>
+                        <outlet property="blueSquare" destination="JrQ-of-VEg" id="S9j-Ao-RIz"/>
+                        <outlet property="greenSquare" destination="Bm9-D3-pGn" id="nsO-KJ-E55"/>
+                        <outlet property="redSquare" destination="x4d-gd-okY" id="Ta2-TD-rgy"/>
+                        <outlet property="yellowSquare" destination="X2F-ZA-ZD2" id="6ak-2e-deP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y58-ek-bG7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="934" y="1057"/>
         </scene>
         <!--Position View Controller-->
         <scene sceneID="JhD-9Y-peU">
