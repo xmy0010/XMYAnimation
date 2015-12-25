@@ -11,6 +11,7 @@
 		4A7616EB1C2D28A7001F7C86 /* ScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7616EA1C2D28A7001F7C86 /* ScaleViewController.swift */; };
 		4A7616ED1C2D2C89001F7C86 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7616EC1C2D2C89001F7C86 /* ColorViewController.swift */; };
 		4A7616EF1C2D2E42001F7C86 /* RotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7616EE1C2D2E42001F7C86 /* RotationViewController.swift */; };
+		4AC3D6501C2D4226005921FD /* RepeatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC3D64F1C2D4226005921FD /* RepeatViewController.swift */; };
 		4ADE5D091C2ABD0A002B5D84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADE5D081C2ABD0A002B5D84 /* AppDelegate.swift */; };
 		4ADE5D0B1C2ABD0A002B5D84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADE5D0A1C2ABD0A002B5D84 /* ViewController.swift */; };
 		4ADE5D0E1C2ABD0A002B5D84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADE5D0C1C2ABD0A002B5D84 /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 		4A7616EA1C2D28A7001F7C86 /* ScaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleViewController.swift; sourceTree = "<group>"; };
 		4A7616EC1C2D2C89001F7C86 /* ColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
 		4A7616EE1C2D2E42001F7C86 /* RotationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotationViewController.swift; sourceTree = "<group>"; };
+		4AC3D64F1C2D4226005921FD /* RepeatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepeatViewController.swift; sourceTree = "<group>"; };
 		4ADE5D051C2ABD0A002B5D84 /* XMYAnimationSimple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMYAnimationSimple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ADE5D081C2ABD0A002B5D84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4ADE5D0A1C2ABD0A002B5D84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				4A7616EA1C2D28A7001F7C86 /* ScaleViewController.swift */,
 				4A7616EC1C2D2C89001F7C86 /* ColorViewController.swift */,
 				4A7616EE1C2D2E42001F7C86 /* RotationViewController.swift */,
+				4AC3D64F1C2D4226005921FD /* RepeatViewController.swift */,
 			);
 			path = XMYAnimationSimple;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 				4ADE5D0B1C2ABD0A002B5D84 /* ViewController.swift in Sources */,
 				4A51720A1C2C402C00F8C818 /* OpacityViewController.swift in Sources */,
 				4A7616EF1C2D2E42001F7C86 /* RotationViewController.swift in Sources */,
+				4AC3D6501C2D4226005921FD /* RepeatViewController.swift in Sources */,
 				4A7616ED1C2D2C89001F7C86 /* ColorViewController.swift in Sources */,
 				4ADE5D091C2ABD0A002B5D84 /* AppDelegate.swift in Sources */,
 			);
