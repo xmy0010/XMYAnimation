@@ -259,13 +259,22 @@
                     <view key="view" contentMode="scaleToFill" id="Tw5-dc-afK">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="wheel" id="XDZ-FF-UOQ">
+                                <rect key="frame" x="10" y="106" width="300" height="300"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="HQY-mh-Ecy"/>
+                    <connections>
+                        <outlet property="wheel" destination="XDZ-FF-UOQ" id="75W-Eb-lQt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zM6-8o-YSa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2639" y="391"/>
+            <point key="canvasLocation" x="2553" y="361"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="45a-Ic-HXw">
@@ -286,4 +295,7 @@
             <point key="canvasLocation" x="117" y="347"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="wheel" width="894" height="894"/>
+    </resources>
 </document>
