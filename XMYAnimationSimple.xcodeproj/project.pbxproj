@@ -22,6 +22,7 @@
 		4ADE5D1E1C2ABD0B002B5D84 /* XMYAnimationSimpleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADE5D1D1C2ABD0B002B5D84 /* XMYAnimationSimpleTests.swift */; };
 		4ADE5D291C2ABD0B002B5D84 /* XMYAnimationSimpleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADE5D281C2ABD0B002B5D84 /* XMYAnimationSimpleUITests.swift */; };
 		4ADE5D371C2ABEAD002B5D84 /* PositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADE5D361C2ABEAD002B5D84 /* PositionViewController.swift */; };
+		4AE2A1481C2E2A9F007A26A2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE2A1471C2E2A9F007A26A2 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		4ADE5D281C2ABD0B002B5D84 /* XMYAnimationSimpleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMYAnimationSimpleUITests.swift; sourceTree = "<group>"; };
 		4ADE5D2A1C2ABD0B002B5D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ADE5D361C2ABEAD002B5D84 /* PositionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionViewController.swift; sourceTree = "<group>"; };
+		4AE2A1471C2E2A9F007A26A2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				4AC3D64F1C2D4226005921FD /* RepeatViewController.swift */,
 				4AC3D6511C2D616E005921FD /* EasingViewController.swift */,
 				4AC3D6531C2D670E005921FD /* SpringViewController.swift */,
+				4AE2A1471C2E2A9F007A26A2 /* LoginViewController.swift */,
 			);
 			path = XMYAnimationSimple;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				4AC3D6501C2D4226005921FD /* RepeatViewController.swift in Sources */,
 				4A7616ED1C2D2C89001F7C86 /* ColorViewController.swift in Sources */,
 				4ADE5D091C2ABD0A002B5D84 /* AppDelegate.swift in Sources */,
+				4AE2A1481C2E2A9F007A26A2 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
