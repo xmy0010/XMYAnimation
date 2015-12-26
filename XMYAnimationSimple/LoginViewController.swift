@@ -61,6 +61,10 @@ class LoginViewController: UIViewController {
         self.loginPosition = self.login.center
         self.login.center.x += self.view.bounds.width
         
+        self.view.addSubview(self.warningMessage)
+        self.warningMessage.hidden = true
+        self.warningMessage.center = self.loginPosition
+        
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -120,6 +124,11 @@ class LoginViewController: UIViewController {
         self.spinner.frame.origin = CGPointMake(12, 12)
         self.spinner.startAnimating()
         
+        UIView.transitionWithView(self.warningMessage, duration: 0.3, options: .TransitionFlipFromBottom, animations: {
+            
+            self.warningMessage.hidden = true
+            }, completion: nil)
+        
         UIView.animateWithDuration(0.3, animations: {
             self.login.center = self.loginPosition
         })
@@ -131,6 +140,12 @@ class LoginViewController: UIViewController {
                 UIView.animateWithDuration(0.3, animations: {
                     self.login.center.y += 80
                     self.spinner.removeFromSuperview()
+                    }, completion: { _ in
+                        UIView.transitionWithView(self.warningMessage, duration: 0.3, options: [UIViewAnimationOptions.TransitionFlipFromTop, UIViewAnimationOptions.CurveEaseOut], animations: {
+                            
+                                self.warningMessage.hidden = false
+                            }, completion: nil)
+                        
                 })
                 
         })
